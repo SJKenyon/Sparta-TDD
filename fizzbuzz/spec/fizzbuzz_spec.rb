@@ -14,4 +14,8 @@ describe Fizzbuzz do
     expect(Fizzbuzz.number 5).to eq "Buzz"
   end
 
+  it 'should output a number if not a multiple of five or three' do
+    expect(Fizzbuzz.number 8).to be_an(Integer)
+  end
+
 end

@@ -32,4 +32,4 @@ class Fizzbuzz
 
 end
 
-Fizzbuzz.array(15)
+Fizzbuzz.array(30)
